@@ -1,0 +1,54 @@
+h1, h2, h3{
+	font-family: 'Inter', sans-serif;
+	font-size: 22px;
+	line-height: 1.35em;
+	}
+
+
+h4, h5, p, li{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	line-height: 1.35em;
+	}
+
+
+.small, dd, dt,
+cite, figcaption{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.45em;
+	}
+
+
+blockquote{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 22px;
+	line-height: 34px;
+	font-weight: 500;
+	}
+
+h1, h2, h3, h4, h5{
+	text-align: center;
+	}
+
+h1, h2, h3, h4, h5{
+	font-weight: 600;
+	}
+
+dt{
+	font-weight: 600;
+	}
+
+
+
+.small{
+	font-size: 12px
+	font-style: normal;
+	line-height: 16px;
+	}
+
+ul.columns{
+	list-style: none;
+	columns: 3;
+}

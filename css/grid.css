@@ -1,0 +1,24 @@
+.grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	width: 100%;
+	}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	width: 100%;
+	}
+
+.grid-functions {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	text-align: center;
+	}
+
+.grid-functions div{
+	padding: 10px;
+	}

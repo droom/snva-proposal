@@ -1,0 +1,55 @@
+header{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+section{
+	padding-top: 20px;
+	padding-bottom: 70px;
+	}
+
+* + .figure,
+* + h5,
+* + p,
+* + blockquote{
+	margin-top: 50px;
+	}
+
+h5 + ul,
+h5 + .list{
+	margin-top: 30px;
+	}
+
+
+
+cite{
+	margin-top: 10px;
+	/*margin-bottom: 50px;*/
+	padding-left: 18px;
+	/*background: red;*/
+}
+
+
+.section-title{
+	margin-bottom: 50px;
+	}
+
+body {
+  counter-reset: section;
+	}
+
+.section-title:before{
+	display: block;
+	counter-increment: section;
+	content: "— " counter(section) " —";
+	font-size: 14px;
+	margin-bottom: 3px;
+	/*margin-top: -32px;*/
+	/*background: yellow;*/
+
+	}
+
+
+p + p{
+	margin-top: 15px;
+}
