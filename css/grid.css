@@ -12,6 +12,12 @@
 	width: 100%;
 	}
 
+.align-end{
+	align-items: self-end;
+}
+
+
+
 .grid-functions {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;

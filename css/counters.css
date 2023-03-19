@@ -1,0 +1,17 @@
+body {
+  counter-reset: section figure;
+	}
+
+.h3:before{
+	display: block;
+	counter-increment: section;
+	content: "— " counter(section) " —";
+	font-size: 14px;
+	margin-bottom: 3px;
+	}
+
+.figcaption:before{
+	counter-increment: figure;
+	font-weight: 600;
+	content: "Fig. " counter(figure) " " ;
+	}

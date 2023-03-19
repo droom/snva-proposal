@@ -8,25 +8,20 @@ ul, li{
 	padding: 0; 
 	}
 
-cite,
-figcaption
-{
-	display: block;
-}
-
 body{
 	padding: 30px;
 	}
 
-main{
+.wrap{
 	max-width: 700px;
 	margin: auto;
 	}
 
-blockquote{
+.citation,
+.figcaption{
+	display: block;
+}
+
+.quote{
 	padding-left: 15px;
 	}
-
-cite{
-	font-size: 16px;
-}
