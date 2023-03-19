@@ -1,25 +1,38 @@
-
-
-.h1, .h2, .h3, .h4, .h5, .h6, .para, .list{
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.para,
+.list,
+.functions,
+.citation, 
+.definitions, 
+.figcaption,
+.label,
+.small
+{
 	font-family: 'Inter', sans-serif;
+	font-style: normal;
 	font-size: 18px;
-	line-height: 1.35em;
+	line-height: 1.4em;
+	}
+.functions,
+.citation, 
+.definitions, 
+.figcaption,
+.label,
+.small,
+.h2{
+	font-size: 14px;
+	line-height: 1.45em;
 	}
 
 .h3{
-	font-family: 'Inter', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size: 22px;
 	line-height: 1.35em;
-	}
-
-.small, 
-.definitions, 
-.citation, 
-.figcaption{
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-size: 14px;
-	line-height: 1.45em;
 	}
 
 .quote{
@@ -27,6 +40,7 @@
 	font-size: 22px;
 	line-height: 34px;
 	font-weight: 500;
+	border-left: 3px solid black;
 	}
 
 .h1, .h2, .h3, .h4, .h5{

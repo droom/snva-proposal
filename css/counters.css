@@ -2,16 +2,49 @@ body {
   counter-reset: section figure;
 	}
 
-.h3:before{
+/*.h3:before{
 	display: block;
 	counter-increment: section;
 	content: "— " counter(section) " —";
 	font-size: 14px;
 	margin-bottom: 3px;
-	}
+	}*/
 
 .figcaption:before{
 	counter-increment: figure;
 	font-weight: 600;
 	content: "Fig. " counter(figure) " " ;
+	padding: 0 6px 0 0;
 	}
+
+.chapter{
+	display: block;
+	text-align: center;
+	/*height: 1px;*/
+	margin-bottom: 20px;
+	overflow: visible;
+	/*overflow: hidden;*/
+	background: url("hr.svg") repeat-x center center grey;	
+
+	}
+
+.chapter label:before{
+	counter-increment: section;
+	content: counter(section);
+	background: white;
+	padding: 6px 8px 4px 8px;
+	/*display: inline-block;*/
+}
+
+
+
+
+/*
+
+.h3:before{
+	content:"∞ ";
+	}
+
+.h3:after{
+	content:" ∞";
+	}*/

@@ -12,19 +12,28 @@
 	width: 100%;
 	}
 
-.align-end{
-	align-items: self-end;
-}
-
-
-
-.grid-functions {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	width: 100%;
+.functions {
+	grid-gap: 0px;
 	text-align: center;
 	}
 
-.grid-functions div{
+.functions div{
 	padding: 10px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	}
+
+.functions div:nth-child(3),
+.functions div:nth-child(6){
+	border-right: 1px solid #ccc;
+	}
+
+.functions div:nth-child(4),
+.functions div:nth-child(5),
+.functions div:nth-child(6){
+	border-bottom: 1px solid #ccc;
+	}
+
+.align-end{
+	align-items: self-end;
+}
