@@ -3,22 +3,14 @@ p, small,
 dl, dt, dd,
 figure, figcaption,
 blockquote, cite,
-ul, li{
+ul, ol, li{
 	margin: 0;
 	padding: 0; 
 	}
 
-body{
-	padding: 0 30px;
-	}
-
 header{
 	width: 100%;
-	/*background: pink;*/
 }
-/*section{*/
-	/*border-top: 1px solid #ccc;*/
-	/*}*/
 
 .wrap{
 	max-width: 700px;
@@ -30,6 +22,38 @@ header{
 	display: block;
 }
 
+.footer{
+	background: #eee;
+	padding: 40px 0 80px 0;
+
+}
+.footer li{
+	line-height: 22px;
+}
+
+.grey{
+	background: #eee;
+}
 .quote{
 	padding-left: 15px;
 	}
+
+.functions div{
+	position: relative;
+}
+
+.functions div .h4{
+	padding: 8px 0 10px 0; 
+}
+
+.functions div p{
+	margin: 0;
+	padding: 20px 0 60px 0; 
+}
+
+.functions div label{
+	position: absolute;
+	bottom: 0;
+	margin: 20px 0 20px 0;
+
+}

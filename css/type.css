@@ -11,7 +11,8 @@
 .definitions, 
 .figcaption,
 .label,
-.small
+.small,
+.footer
 {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
@@ -24,6 +25,7 @@
 .figcaption,
 .label,
 .small,
+.footer,
 .h2{
 	font-size: 14px;
 	line-height: 1.45em;
@@ -50,11 +52,19 @@
 .h1, .h2, .h3, .h4, .h5{
 	font-weight: 600;
 	}
+.citation{
+	font-weight: 500;
+}
 
 .definitions dt{
 	font-weight: 600;
 	}
 
+sup{
+	font-size: 10px;
+	display: inline;
+	margin-left: 5px;
+}
 
 ul.columns{
 	list-style: none;
