@@ -71,12 +71,6 @@ ul.columns{
 	columns: 3;
 }
 
-
-.function-label{
-	/*background: blue;*/
-	color: blue;
-	font-size: 20px;
-	padding: 0;
-	margin: auto;
-	text-align: center; 
+.byline{
+	margin: 50px 0 10px 0;
 }
