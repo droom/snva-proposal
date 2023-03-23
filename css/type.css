@@ -70,3 +70,13 @@ ul.columns{
 	list-style: none;
 	columns: 3;
 }
+
+
+.function-label{
+	/*background: blue;*/
+	color: blue;
+	font-size: 20px;
+	padding: 0;
+	margin: auto;
+	text-align: center; 
+}

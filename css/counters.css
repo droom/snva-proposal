@@ -22,11 +22,17 @@ body {
 	background: url("hr.svg") repeat-x center center grey;	
 	}
 
-.chapter label:before{
-	counter-increment: section;
-	content: counter(section);
+.chapter label{
 	background: white;
 	padding: 6px 8px 4px 8px;
+
+}
+
+.chapter label.numbered:before{
+	counter-increment: section;
+	content: counter(section);
+	/*background: white;*/
+	/*padding: 6px 8px 4px 8px;*/
 }
 
 .ref{
