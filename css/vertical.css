@@ -56,3 +56,7 @@ p + .h3,
 .para + .para{
 	margin-top: 18px;
 }
+
+.inline-space{
+	margin-top: 0px !important;
+}

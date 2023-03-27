@@ -50,12 +50,31 @@
 	}
 
 
+@media screen and (max-width: 700px){
+.functions div:nth-child(1),
+.functions div:nth-child(2),
+.functions div:nth-child(3),
+.functions div:nth-child(6),
+.functions div:nth-child(4),
+.functions div:nth-child(5),
+.functions div:nth-child(6){
+	}
+
+.functions div:nth-child(1),
+.functions div:nth-child(3),
+.functions div:nth-child(5){
+	border-right: 1px solid #ccc;
+	border-right: none;
+	}
+
+.functions div:nth-child(4){
+	border-bottom: none;
+	}
+}
+
 .grid-3 .figcaption{
 	min-height: 5em;
-	background: pink;
 	display: block;
-	/*display: inline-block;*/
-
 }
 
 .grid-2.gap-large{

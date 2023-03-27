@@ -12,3 +12,8 @@ img.snva{
 	margin: 50px 0 0 0;
 	text-align: center;
 }
+
+.function-label img{
+	width: 30px;
+	margin-top: 10px;
+}
