@@ -19,6 +19,26 @@ p + .h3,
 	margin-top: 50px;
 	}
 
+
+.list + .h5,
+.figure + .h5,
+.h3 + .h5{
+	margin-top: 70px;
+}
+
+.para + .list,
+.para + .grid-2{
+	margin-top: 50px;
+}
+
+
+
+
+.h5 + .para{
+	margin-top: 30px;
+}
+
+
 .h5 +.functions,
 .h5 + .list{
 	margin-top: 30px;

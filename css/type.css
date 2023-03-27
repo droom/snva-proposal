@@ -66,9 +66,10 @@ sup{
 	margin-left: 5px;
 }
 
-ul.columns{
+.columns{
 	list-style: none;
-	columns: 3;
+	columns: 2;
+	width: 100%;
 }
 
 .byline{

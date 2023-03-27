@@ -62,6 +62,10 @@
 	grid-gap: 30px;
 }
 
+.grid-3.gap-large{
+	grid-gap: 30px;
+}
+
 
 .align-start{
 	align-items: self-start;
