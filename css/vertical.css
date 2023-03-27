@@ -13,6 +13,7 @@ section{
 p + .h2,
 p + .h3,
 .h2 + .grid-3,
+.para + .grid-2,
 .para + .grid-3,
 * + .quote{
 	margin-top: 50px;
@@ -33,5 +34,5 @@ p + .h3,
 	}
 
 .para + .para{
-	margin-top: 15px;
+	margin-top: 18px;
 }
