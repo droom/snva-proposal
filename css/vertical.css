@@ -19,25 +19,20 @@ p + .h3,
 	margin-top: 50px;
 	}
 
-
 .list + .h5,
-.figure + .h5,
-.h3 + .h5{
-	margin-top: 70px;
+.figure + .h5{
+	margin-top: 80px;
 }
 
+.h3 + .h5,
 .para + .list,
 .para + .grid-2{
 	margin-top: 50px;
 }
 
-
-
-
 .h5 + .para{
 	margin-top: 30px;
 }
-
 
 .h5 +.functions,
 .h5 + .list{
@@ -55,6 +50,10 @@ p + .h3,
 
 .para + .para{
 	margin-top: 18px;
+}
+
+.para + .list {
+  margin-top: 40px;
 }
 
 .inline-space{
