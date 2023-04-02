@@ -73,15 +73,14 @@
 }
 
 .grid-3 .figcaption{
-	min-height: 5em;
+	min-height: 3em;
 	display: block;
 }
 
-.grid-2.gap-large{
-	grid-gap: 30px;
+.gap-none{
+	grid-gap: 0;
 }
-
-.grid-3.gap-large{
+.gap-large{
 	grid-gap: 30px;
 }
 

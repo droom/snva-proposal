@@ -7,12 +7,13 @@ section{
 	padding-bottom: 60px;
 	}
 
-* + .figure,
 * + .h5,
 * + p,
 p + .h2,
 p + .h3,
 .h2 + .grid-3,
+.list + .grid-2,
+.list + .grid-3,
 .para + .grid-2,
 .para + .grid-3,
 * + .quote{
@@ -54,8 +55,4 @@ p + .h3,
 
 .para + .list {
   margin-top: 40px;
-}
-
-.inline-space{
-	margin-top: 0px !important;
 }
