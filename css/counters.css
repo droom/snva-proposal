@@ -17,26 +17,40 @@ body {
 .chapter{
 	display: block;
 	text-align: center;
+	margin-top: -36px;
 	margin-bottom: 20px;
+
+	}
+
+.chapter.hr{
 	overflow: visible;
 	background: url("hr.svg") repeat-x center center transparent;	
-	}
+}
 
 .chapter label{
 	background: white;
 	border-radius: 50%;
 	/*border: 1px solid grey;*/
-	padding: 6px 8px 4px 8px;
+	/*padding: 6px 8px 4px 8px;*/
+	padding: 12px 8px 10px 8px;
+
 }
 
 .chapter label.numbered:before{
 	counter-increment: section;
 	content: counter(section);
-	background: white;
 	/*background: white;*/
-	padding: 6px 8px 4px 8px;
+	/*background: white;*/
+	padding: 8px;
 	border-radius: 50%;
 }
+
+.chapter label.numbered.knockout{
+	background: #c7d8d9;
+}
+
+
+
 
 .ref{
 	color: red;

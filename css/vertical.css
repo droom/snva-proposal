@@ -31,6 +31,7 @@ p + .h3,
 	margin-top: 50px;
 }
 
+.para + .figure,
 .h5 + .para{
 	margin-top: 30px;
 }
