@@ -12,10 +12,19 @@
 .figcaption,
 .label,
 .small,
-.footer
-{
+.footer{
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
+	}
+
+
+.list,
+.para{
+	font-size: 18px;
+	line-height: 1.5em;
+	}
+
+.h3, .h5{
 	font-size: 18px;
 	line-height: 1.5em;
 	}
@@ -29,7 +38,6 @@
 .functions,
 .citation, 
 .definitions, 
-.figcaption,
 .label,
 .small,
 .footer,
@@ -39,7 +47,11 @@
 	}
 
 
+.figcaption{
+	font-size: 13px;
+	line-height: 17px;
 
+	}
 
 .h3{
 	font-family: 'Inter', sans-serif;

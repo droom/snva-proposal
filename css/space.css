@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5,
+body, h1, h2, h3, h4, h5,
 p, small,
 dl, dt, dd,
 figure, figcaption,
@@ -8,20 +8,21 @@ ul, ol, li{
 	padding: 0; 
 	}
 
+body{
+	padding: 0 10px;
+}
+
 header{
 	width: 100%;
-	/*margin: 130px 0 70px 0;*/
 }
 
 .wrap{
-	/*max-width: 600px;*/
 	max-width: 700px;
 	margin: auto;
-	padding: 30px 30px 90px 30px;
+	padding: 0 30px 100px 30px;
 	}
 
-.citation,
-.figcaption{
+.citation{
 	display: block;
 }
 
@@ -50,8 +51,8 @@ header{
 	padding: 20px 0 60px 0; 
 }
 
-
 .band-studio{
 	background-color: #f3ecdf;
 	background-color: #c7d8d9;
+	background-color: #d4dddd;
 }

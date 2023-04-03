@@ -60,10 +60,14 @@
 .functions div:nth-child(6){
 	}
 
+.functions div:nth-child(2),
+.functions div:nth-child(4){
+	border-right: 1px solid #ccc;
+	}
+
 .functions div:nth-child(1),
 .functions div:nth-child(3),
 .functions div:nth-child(5){
-	border-right: 1px solid #ccc;
 	border-right: none;
 	}
 

@@ -7,24 +7,32 @@ body {
 	font-weight: 600;
 	content: "[Fig. " counter(figure) "] " ;
 	margin: 0 6px 0 0;
-	display: inline-block;
+	/*display: inline-block;*/
 	}
 
-.figcaption{
-	display: inline;
-}
+.figcaption:before{
+	counter-increment: figure;
+	font-weight: 600;
+	content: "Fig." counter(figure);
+	margin: 0 6px 0 0;
+	/*display: inline-block;*/
+	}
+
+/*.figcaption{*/
+	/*display: inline;*/
+/*}*/
 
 .chapter{
 	display: block;
 	text-align: center;
-	margin-top: -36px;
-	margin-bottom: 20px;
-
+	/*margin-top: -36px;*/
+	/*margin-bottom: 20px;*/
 	}
 
 .chapter.hr{
 	overflow: visible;
 	background: url("hr.svg") repeat-x center center transparent;	
+	/*height: 5px;*/
 }
 
 .chapter label{

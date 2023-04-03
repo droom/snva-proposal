@@ -20,17 +20,21 @@ p + .h3,
 	margin-top: 50px;
 	}
 
+.grid-2 + .h5,
+.grid-3 + .h5,
+.grid-4 + .h5,
 .list + .h5,
 .figure + .h5{
 	margin-top: 80px;
 }
 
 .h3 + .h5,
-.para + .list,
 .para + .grid-2{
 	margin-top: 50px;
 }
 
+
+.para + .grid-4,
 .para + .figure,
 .h5 + .para{
 	margin-top: 30px;
@@ -55,5 +59,17 @@ p + .h3,
 }
 
 .para + .list {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+
+.h3{
+	margin-top: 30px;
+}
+
+.figure + .grid-3{
+	margin-top: 40px;
+}
+
+.figure + .grid-2{
+	margin-top: 40px;
 }
