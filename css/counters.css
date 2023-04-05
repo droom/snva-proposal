@@ -40,9 +40,23 @@ body {
 	border-radius: 50%;
 	/*border: 1px solid grey;*/
 	/*padding: 6px 8px 4px 8px;*/
-	padding: 12px 8px 10px 8px;
+	/*padding: 12px 8px 10px 8px;*/
+	padding: 8px;
 
 }
+
+.chapter label.stamp{
+	/*background: grey;*/
+	border-radius: 50%;
+	/*border: 1px solid grey;*/
+	/*padding: 6px 8px 4px 8px;*/
+	/*padding: 12px 8px 10px 8px;*/
+	padding: 2px 3px 1px 3px;
+
+}
+
+
+
 
 .chapter label.numbered:before{
 	counter-increment: section;

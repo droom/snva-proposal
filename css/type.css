@@ -103,4 +103,24 @@ sup{
 	/*background: pink;*/
 	} 
 
+
+
+.contents ol.list{
+	/*background: yellow;*/
+	/*color: black;*/
+	font-size: 15px;
+	line-height: 25px;
+
 }
+
+.contents ol.list a{
+	/*background: yellow;*/
+	color: black;
+}
+
+
+a.index{
+	text-decoration: none;
+	color: grey;
+}
+
