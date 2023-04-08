@@ -7,7 +7,6 @@ body {
 	font-weight: 600;
 	content: "[Fig. " counter(figure) "] " ;
 	margin: 0 6px 0 0;
-	/*display: inline-block;*/
 	}
 
 .figcaption:before{
@@ -15,55 +14,32 @@ body {
 	font-weight: 600;
 	content: "Fig." counter(figure);
 	margin: 0 6px 0 0;
-	/*display: inline-block;*/
 	}
-
-/*.figcaption{*/
-	/*display: inline;*/
-/*}*/
 
 .chapter{
 	display: block;
 	text-align: center;
-	/*margin-top: -36px;*/
-	/*margin-bottom: 20px;*/
 	}
 
 .chapter.hr{
 	overflow: visible;
 	background: url("hr.svg") repeat-x center center transparent;	
-	/*height: 5px;*/
 }
 
 .chapter label{
-	background: white;
+	background: #f2f2f2;
 	border-radius: 50%;
-	/*border: 1px solid grey;*/
-	/*padding: 6px 8px 4px 8px;*/
-	/*padding: 12px 8px 10px 8px;*/
-	/*padding: 8px;*/
 	padding: 10px 8px;
-	
-
 }
 
 .chapter label.stamp{
-	/*background: grey;*/
 	border-radius: 50%;
-	/*border: 1px solid grey;*/
-	/*padding: 6px 8px 4px 8px;*/
-	/*padding: 12px 8px 10px 8px;*/
 	padding: 2px 3px 1px 3px;
-
 }
-
-
 
 .chapter label.numbered:before{
 	counter-increment: section;
 	content: counter(section);
-	/*background: white;*/
-	/*background: white;*/
 	padding: 10px 8px;
 	border-radius: 50%;
 }
@@ -71,9 +47,6 @@ body {
 .chapter label.numbered.knockout{
 	background: #d4dddd;
 }
-
-
-
 
 .ref{
 	color: red;
