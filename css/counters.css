@@ -41,7 +41,9 @@ body {
 	/*border: 1px solid grey;*/
 	/*padding: 6px 8px 4px 8px;*/
 	/*padding: 12px 8px 10px 8px;*/
-	padding: 8px;
+	/*padding: 8px;*/
+	padding: 10px 8px;
+	
 
 }
 
@@ -57,18 +59,17 @@ body {
 
 
 
-
 .chapter label.numbered:before{
 	counter-increment: section;
 	content: counter(section);
 	/*background: white;*/
 	/*background: white;*/
-	padding: 8px;
+	padding: 10px 8px;
 	border-radius: 50%;
 }
 
 .chapter label.numbered.knockout{
-	background: #c7d8d9;
+	background: #d4dddd;
 }
 
 
