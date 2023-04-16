@@ -45,7 +45,12 @@ body {
 }
 
 .chapter label.numbered.knockout{
-	background: #d4dddd;
+	/*background-color: #d4dddd;*/
+	background-color: #e9f6ff;
+	background-color: #e1f2ff;
+	/*background-color: #7b8c99;*/
+
+
 }
 
 .ref{
