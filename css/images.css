@@ -21,8 +21,3 @@ img.border{
 img.multiply{
 	mix-blend-mode: multiply;
 }
-
-.function-label img{
-	width: 30px;
-	margin-top: 10px;
-}
