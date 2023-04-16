@@ -10,13 +10,13 @@
 .citation, 
 .definitions, 
 .figcaption,
+.navigation,
 .label,
 .small,
 .footer{
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	}
-
 
 .list,
 .para{
@@ -30,12 +30,9 @@
 	}
 
 
-.h1 {
-  font-size: 26px;
-  line-height: 36px;
-}
 
 .functions,
+.navigation,
 .citation, 
 .definitions, 
 .label,
@@ -50,7 +47,6 @@
 .figcaption{
 	font-size: 13px;
 	line-height: 17px;
-
 	}
 
 .h3{
@@ -94,19 +90,9 @@ sup{
 	width: 100%;
 }
 
-.byline{
-	margin: 90px 0 10px 0;
-}
-
-.contents ol.list{
-	font-size: 15px;
-	line-height: 25px;
-}
-
-.contents ol.list a{
-	color: black;
-}
-
+ol.contents.list{
+	line-height: 30px;
+	}
 
 a{
 	color: black;
@@ -135,10 +121,7 @@ a:hover{
 		rgba(0,131,255,1) 89%, 
 		rgba(255,255,255,0) 90%, 
 		rgba(255,255,255,0) 100%); 
-
 }
-
-
 
 .highlight{
 	 background: rgb(255,240,0);
@@ -153,6 +136,5 @@ a:hover{
 }
 
 a.index{
-	/*text-decoration: none;*/
 	color: grey;
 }

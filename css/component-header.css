@@ -1,11 +1,31 @@
 .header{
-	margin: 30px 0;
-	padding-top: 30px;
+	margin: 0;
+	/*background-color: pink;*/
+	height: 96vh;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto 1fr;
+	align-items: center;
+
+	}
+
+.h1 {
+  font-size: 26px;
+  line-height: 34px;
+  margin: 20px 0 30px 0;
+}
+
+.byline{
+	/*margin: 90px 0 10px 0;*/
 	}
 
 .snva{
-	width: 500px;
+	/*width: 500px;*/
 	margin: auto;
-	margin: 50px 0 0 0;
-	text-align: center;
+	width: auto;
+	/*margin: 50px 0 0 0;*/
+	/*align-self: center;*/
+	/*text-align: center;*/
+	height: 100%;
 }
