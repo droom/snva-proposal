@@ -1,13 +1,11 @@
 .header{
 	margin: 0;
-	/*background-color: pink;*/
 	height: 96vh;
-
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto 1fr;
 	align-items: center;
-
 	}
 
 .h1 {
@@ -21,11 +19,7 @@
 	}
 
 .snva{
-	/*width: 500px;*/
 	margin: auto;
 	width: auto;
-	/*margin: 50px 0 0 0;*/
-	/*align-self: center;*/
-	/*text-align: center;*/
 	height: 100%;
 }
