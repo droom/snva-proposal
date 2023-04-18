@@ -63,6 +63,17 @@
 	border-left: 3px solid black;
 	}
 
+.small.quote{
+	/*font-family: 'Libre Baskerville', 'Georgia', serif;*/
+	font-size: 15px;
+	/*font-style: italic;*/
+	line-height: 24px;
+	font-weight: 500;
+	border-left: 2px solid green;
+	max-width: 520px;
+	/*color: green;*/
+	}
+
 .h1, .h2, .h3, .h4, .h5{
 	text-align: center;
 	}
@@ -93,15 +104,3 @@ sup{
 ol.contents.list{
 	line-height: 30px;
 	}
-
-.highlight{
-	 background: rgb(255,240,0);
-	 background: linear-gradient(90deg, 
-	 	rgba(255,240,0,0.4) 0%, 
-	 	rgba(255,240,0,0.2) 25%, 
-	 	rgba(255,240,0,0.4) 50%, 
-	 	rgba(255,240,0,0.3) 75%, 
-	 	rgba(255,240,0,0.1) 100%); 
-	 padding: 1px 4px 1px 0;
-	 border-radius: 2px;
-}
