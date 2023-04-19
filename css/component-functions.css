@@ -6,11 +6,13 @@
 }
 
 .function-label.green{
-	background-color: #caebb0;
+	background-color: #cdeaff;
+
 	}
 .function-label.yellow{
 	background-color: #ffe5a1;
 }
 .function-label.blue{
-	background-color: #cdeaff;
+	background-color: #caebb0;
+	
 }
