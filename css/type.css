@@ -24,10 +24,27 @@
 	line-height: 1.5em;
 	}
 
+@media screen and (max-width: 500px){
+.list,
+.para{
+	font-size: 16px;
+	line-height: 1.45em;
+	}
+}
+
+
 .h3, .h5{
 	font-size: 18px;
 	line-height: 1.5em;
 	}
+
+
+@media screen and (max-width: 500px){
+	.h3, .h5{
+		font-size: 16px;
+		line-height: 1.4em;
+		}
+}
 
 
 
@@ -63,15 +80,23 @@
 	border-left: 3px solid black;
 	}
 
+@media screen and (max-width: 500px){
+	.quote{
+		font-size: 19px;
+		line-height: 30px;
+		font-weight: 500;
+		border-left: 3px solid black;
+		}
+}
+
+
+
 .small.quote{
-	/*font-family: 'Libre Baskerville', 'Georgia', serif;*/
 	font-size: 15px;
-	/*font-style: italic;*/
 	line-height: 24px;
 	font-weight: 500;
 	border-left: 2px solid green;
 	max-width: 520px;
-	/*color: green;*/
 	}
 
 .h1, .h2, .h3, .h4, .h5{
